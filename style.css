@@ -1,0 +1,142 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(34, 34, 34);
+    color: #FFFFFF;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 15px;
+    font-family: 'Poppins', sans-serif;
+    overflow-x: hidden;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    width: 100px;
+    max-width: 100%;
+}
+
+ul {
+    display: flex;
+    column-gap: 20px;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    color: #FFFFFF;
+    text-decoration: none;
+    font-size: 1em;
+}
+
+a:hover {
+    color: rgb(132, 14, 201);
+    transition: 0.5s all;
+}
+
+.contato {
+    border: 2px solid rgb(132, 14, 201);
+    padding: 10px;
+    border-radius: 15px;
+}
+
+.contato:hover {
+    background-color: rgb(132, 14, 201);
+    color: #FFFFFF;
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 30px;
+}
+
+h2 span {
+    color: rgb(132, 14, 201);
+}
+
+h2 {
+    font-size: 1.8em;
+    line-height: 1.2em;
+}
+
+p {
+    line-height: 1.4em;
+    max-width: 600px;
+    margin-top: 30px;
+}
+
+article img {
+    width: 100%;
+    max-width: 500px;
+    margin-left: 50px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 20px;
+}
+
+form button {
+    border-radius: 30px;
+    font-size: 14px;
+    margin-top: 20px;
+    height: 50px;
+    width: 50%;
+    background-color: rgb(132, 14, 201);
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    border: none;
+}
+
+form button:hover {
+    opacity: .5;
+}
+
+input {
+    margin-top: 10px;
+    height: 20px;
+    padding: 25px;
+    border-radius: 15px;
+    font-size: 15px;
+    border: none;
+}
+
+input:focus {
+    outline: none;
+}
+
+@media screen and (max-width: 699px) {
+    main {
+        flex-direction: column-reverse;
+    }
+    article img {
+        width: 100%;
+        max-width: 500px;
+        margin: 0;
+    }
+}
+
+@media screen and (max-width: 514px) {
+    header, ul {
+        flex-direction: column;
+        align-items: center;
+        row-gap: 20px;
+    }
+}
