@@ -33,4 +33,3 @@ As tecnologias utilizadas foram: HTML, CSS, Git e Vercel.
   <img src="https://github.com/tiagorodri-dev/landing-page-confeitaria/assets/68871083/57c37c7e-ddc6-4840-b806-e8c3fa3d3d38" width="550">
   <img src="https://github.com/tiagorodri-dev/landing-page-confeitaria/assets/68871083/39eced42-5da6-43b3-9408-94ea7628e643" width="110">
 </div>
-
